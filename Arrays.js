@@ -49,16 +49,16 @@ evenOrOdd(theNumbers);
 
 
 
-let thisArray = [10,3,4,90,34,56,23,100,200];
+// let thisArray = [10,3,4,90,34,56,23,100,200];
 
 
-function bigNumbers(isItHigher){
-    let magicNumber = 13;
-    for(let i = 0; i < isItHigher.length; i++){
-        if(isItHigher[i] < magicNumber){
-            console.log(thisArray - isItHigher[i]);
-        }
-    }
-}
+// function bigNumbers(isItHigher){
+//     let magicNumber = 13;
+//     for(let i = 0; i < isItHigher.length; i++){
+//         if(isItHigher[i] < magicNumber){
+//             console.log(thisArray - isItHigher[i]);
+//         }
+//     }
+// }
 
-bigNumbers(thisArray);
+// bigNumbers(thisArray);
