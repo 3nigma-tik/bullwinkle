@@ -11,8 +11,8 @@ let foodInPortland = Math.floor(Math.random() * diningPortland.length);
 let foodInVancouver = Math.floor(Math.random() * diningVancouver.length);
 let wheels = [" honda", " cadillac,", " ferrari", "tesla"];
 let carsForTrip = Math.floor(Math.random() * wheels.length);
-
-
+let afterParty = [" Going to the movies", " Bowling", " Ice Skating", " Taking a walk"]
+let endOfNight = Math.floor(Math.random() * afterParty.length);
 
 
 
@@ -23,7 +23,7 @@ while (true) {
 		console.log("great, we're going to " + destinations[randomCity]);
 		break;
 	}else if (userInput != "yes"){
-		console.log("Then we wont leave yet");
+		console.log("Then let me know when you are");
 	}
 }
 
@@ -50,5 +50,22 @@ while (true) {
 	if (timeToDrive === "yes"){
 		console.log("Well, hop in. We got a " + wheels[carsForTrip]);
 		break;
+    }else if (timeToDrive === "no"){
+        console.log("Well, I guess we can just walk.");
+        break;
     }    
+}
+
+
+
+
+while (true) {
+    let entertainMe = prompt("Will there be after dinner plans? 'yes' or 'no':")
+	if (entertainMe === "yes"){
+		console.log("Cool let's try " + afterParty[endOfNight]);
+		break;
+	}else if (entertainMe === "no"){
+        console.log("Let's call it a day!");
+        break;
+    }
 }
