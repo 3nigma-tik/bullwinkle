@@ -1,4 +1,3 @@
-
 let destinations = [" seattle", " portland", " vancouver"];
 let randomCity = Math.floor(Math.random() * destinations.length);
 let diningSeattle = [" Altura ", " Dick's Burgers", " The Metropolitan Grill"];
