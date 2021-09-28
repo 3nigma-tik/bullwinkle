@@ -4,10 +4,10 @@ function turnAround(wordInput){
 for(i = wordInput.length - 1; i >= 0; i--) {
     backWords += wordInput[i];
 }
-return backWords - wordInput;
+return backWords;
 }
 
-turnAround("flipword");
+console.log(turnAround("flipword"));
 
 
 
@@ -22,10 +22,9 @@ function correctCapitals(upperCase){
     for(let i = 0; i  < bothWords.length; i++){
         capitalizedWords.push(bothWords[i].charAt(0).toUpperCase() + bothWords[i].slice(1))
     };
-    return capitalizedWords.join("");
+    return capitalizedWords.join(" ");
 }
-
-correctCapitals("cole blackwood");
+console.log(correctCapitals("cole blackwood"));
 
 
 
@@ -47,5 +46,4 @@ function compressMessage(gibberish){
     }
     return letterCount;
 }
-
-compressMessage("nsdjunhfpsdnifpijsndpindsf");
+console.log(compressMessage("aaaaabbbbbddddgggggiiinnnsssssss"));
