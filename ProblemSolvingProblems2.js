@@ -38,6 +38,20 @@ function optimusPrimeNumber(findPrime){
     }
 
 
+
+// figure out how to return current number to function and 
+// add it together with new number(next number)
 function fibonacci(addUp){
-    for(let i = 0; i < 0; i++);
+    if(addUp <= 2) return 1;
+
+    let fibSum = 1, fibAnswer = 1;
+    for(let i = 3; i <= addUp; i++){ 
+        let thatsIt = fibSum + fibAnswer     
+        fibSum = fibAnswer;
+        fibAnswer = thatsIt;
+        console.log(fibAnswer);
+    }
+    return fibAnswer;
 }
+
+ console.log(fibonacci(40));
