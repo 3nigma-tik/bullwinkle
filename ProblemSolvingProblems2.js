@@ -1,5 +1,5 @@
 function perfectNumberFinder(thisNumber){
-    let magicNumber = thisNumber.split(" ");
+    let magicNumber = 
     let numberArray = []
     for(i = 0; i < magicNumber.length; i++){
         (Math.sqrt(numberArray[1])) + Math.sqrt(numberArray[2])
