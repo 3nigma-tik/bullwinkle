@@ -47,3 +47,5 @@ function compressMessage(gibberish){
     return letterCount;
 }
 console.log(compressMessage("aaaaabbbbbddddgggggiiinnnsssssss"));
+
+
