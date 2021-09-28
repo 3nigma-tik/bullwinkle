@@ -1,8 +1,8 @@
 function perfectNumberFinder(thisNumber){
-    let magicNumber = 
-    let numberArray = []
+    let magicNumber = (thisNumber + '').split('').map((i) => { return Number(i); });
+    let numberArray = [magicNumber[0], magicNumber[1]];
     for(i = 0; i < magicNumber.length; i++){
-        (Math.sqrt(numberArray[1])) + Math.sqrt(numberArray[2])
+        numberArray[0] + numberArray[1]
     };
     return numberArray;
 }
@@ -16,7 +16,7 @@ console.log(sum);
 
 
 function splitToDigit(n){
-    return (n + '').split('').map((i) => { return Number(i); })
+    return 
   }
   
   console.log(splitToDigit(100))
