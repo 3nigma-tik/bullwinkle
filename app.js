@@ -20,3 +20,22 @@ else{
 
 console.log("your weekly paycheck is " + payCheck);
 
+
+
+
+
+function areYouMarried(){
+    let currentSpouse = promptFor("what is your person's name", autoValid);
+  
+    let hasASpouse = people.filter(function(spouseFinder){
+      if(spouseFinder.currentSpouse === currentSpouse){
+        return true;
+      }
+      else{
+        return false;
+      }
+    })
+    
+    return hasASpouse;
+  
+  }
