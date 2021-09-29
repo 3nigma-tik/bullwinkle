@@ -8,11 +8,22 @@ function perfectNumberFinder(thisNumber){
     return perfNum;
 }
 
-
 let happyNumber = perfectNumberFinder(13);
 console.log(happyNumber);
 
+// while (happyNumber != 1){
+//     perfectNumberFinder(happyNumber)
+// }
+    
+// want to put this ^ into loop with answer === 1 being true for happy #
 
+
+// let finalNumber = perfectNumberFinder(happyNumber);
+// console.log(finalNumber);
+
+// while(finalNumber != 1){
+
+// }
 
 
 
@@ -39,8 +50,6 @@ function optimusPrimeNumber(findPrime){
 
 
 
-// figure out how to return current number to function and 
-// add it together with new number(next number)
 function fibonacci(addUp){
     if(addUp <= 2) return 1;
 
